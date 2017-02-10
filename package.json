@@ -5,10 +5,9 @@
   "main": "dist/mn-touch.js",
   "repository": {
     "type": "git",
-    "url": "git+https://ilmente@github.com/ilmente/mnTouch.git"
+    "url": "git+https://git@github.com/InnovOrder/mnTouchIO.git"
   },
   "keywords": [
-    "ilmente",
     "mn",
     "mnTouch",
     "mn-touch",
@@ -19,14 +18,17 @@
     "secure-tap",
     "swipe",
     "hold",
-    "fast"
+    "fast",
+    "mobile",
+    "click",
+    "delay"
   ],
   "author": "Alessandro Bellini - ilmente <hello@ilmente.it>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ilmente/mnTouch/issues"
+    "url": "https://github.com/InnovOrder/mnTouchIO/issues"
   },
-  "homepage": "https://github.com/ilmente/mnTouch#readme",
+  "homepage": "https://github.com/InnovOrder/mnTouchIO#readme",
   "scripts": {
     "build": "node ./build.js",
     "prepublish": "npm run build"
